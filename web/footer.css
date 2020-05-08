@@ -1,0 +1,84 @@
+body{
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+}
+.footer .footer-left{
+    width: 30%;
+    justify-content: space-around;
+}
+.footer .footer-left a img{
+    width: 290px;
+    object-fit: cover;
+}
+.footer .footer-left .info li{
+    list-style: none;
+    height: 40px;
+}
+.footer .footer-left .ft-address,.ft-mail,.ft-call{
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 30px;
+}
+.footer .footer-left .ft-address{
+    background-image: url('./images/address.png');
+
+}
+.footer .footer-left .ft-mail{
+    background-image: url('./images/mail.png');
+}
+.footer .footer-left .ft-call{
+    background-image: url('./images/call.png');
+}
+.footer .footer-center {
+    width: 20%;
+    text-indent: 25%;
+}
+.footer-center .menu > ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-center .menu > ul li {
+    padding: 5px;
+}
+.footer-center .menu > ul li a:hover{
+    color: tomato;
+}
+.footer .footer-right{
+    width: 30%;
+}  
+.footer .footer-right .share {
+    display: flex;
+} 
+
+.footer .footer-right .share li{
+    list-style: none;
+    margin-right: 10px;
+}
+.footer .footer-right .share .share-fb, .share-you, .share-tw{
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 30px;
+}
+.footer .footer-right .share .share-fb{
+    background-image: url('./images/fb.png');
+}
+.footer .footer-right .share .share-you{
+    background-image: url('./images/you.png');
+}
+
+.footer .footer-right .share .share-tw{
+    background-image: url('./images/tw.png');
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
+}
+

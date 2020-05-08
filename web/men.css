@@ -1,0 +1,91 @@
+body{
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+.product{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.product .main-product{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.product .main-product .left{
+    width: 15%;
+    overflow: hidden;
+}
+.product .main-product .left .title-sl{
+    width: 100%;
+    overflow: hidden;
+}
+.product .main-product .left .title-sl .main{
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.product .main-product .left .title-sl .main .header{
+    position: relative;
+    height: 22px;
+}
+.product .main-product .left .title-sl .main .header-left{
+    border-bottom: 1px solid #c5c2c2;
+    position: relative;
+}
+.product .main-product .left .title-sl .main .header::after{
+content: "";
+position: absolute;
+height: 3px;
+width: 26px;
+background: #000;
+bottom: -1px;
+left: 0px;
+z-index: 22;
+}
+.product .main-product .left .title-sl .main .header .text-header{
+    margin: 0px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.product .main-product .left .title-sl .main .header .bt{}
+.product .main-product .left .title-sl .main .bottom{
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15PX;
+}
+.product .main-product .left .title-sl .main .bottom li{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.product .main-product .left .title-sl .main .bottom li a{
+    text-decoration: none;
+    color: black;
+}
+.product .main-product .left .title-sl .main li a .icon-v1{
+    background-image: url('./images/v-0.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+.product .main-product .left .title-sl .main li a:hover {
+    color: red;
+}
+.product .main-product .left .title-sl .main li a:hover .icon-v1{
+    background-image: url('./images/v-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.product .main-product .right{
+    width: 85%;
+    overflow: hidden;
+}

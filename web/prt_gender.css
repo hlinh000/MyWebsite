@@ -1,0 +1,86 @@
+.prt-gender{}
+a{
+    text-decoration: none;
+}
+.prt-gender .men{
+    display: block;
+}
+.prt-gender .w .w-store {
+    display: flex;
+    flex-wrap: wrap;
+}
+.prt-gender .w .w-store .item{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 25%;
+}
+.prt-gender .w .w-store .item .prt-inner{  
+    position: relative;
+}
+.prt-gender .w .w-store .item .prt-inner .prt-img{
+    margin-bottom: 20px;
+    position: relative;
+}
+.prt-gender .w .w-store .item .prt-inner .prt-img  .installment{   
+    position: absolute;  
+    left: 10px;  
+    bottom: 0px;  
+    background: #f28902;  
+    padding: 2px 4px; 
+    font-size: 13px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.prt-gender .w .w-store .item .prt-inner h2{
+}
+.prt-gender .w .w-store .item .prt-inner h2 .frt-name-page{
+    font-size: 18px;
+}
+.prt-gender .w .w-store .item .prt-inner h2 .frt-name-page .cart-name{
+    color: #777;
+    margin-bottom: 18px;
+    display: block;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.prt-gender .w .w-store .item .prt-inner .discount{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background: red;
+    color: #fff;
+    padding: 10px 3px 0px;
+    font-size: 14px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 77%, 0 100%);
+    height: 48px;
+    width: 38px;
+    box-sizing: border-box;
+}
+.prt-gender .w .w-store .item .prt-inner .price-arae{
+
+}
+.prt-gender .w .w-store .item .prt-inner .price-arae .price-old{
+    text-decoration: line-through;
+    font-size: 17px;
+}
+.prt-gender .w .w-store .item .prt-inner .price-arae .price-current{
+    font-size: 20px;
+    color: red;
+}
+.prt-gender .w .w-store .item .prt-inner .add-cart{
+    padding: 10px 70px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+.prt-gender .w .w-store .item .prt-inner .add-cart:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header-in {
+    background-image: url('images/bg-img.jpg');
+    background-repeat: no-repeat;
+    height: 660px;
+    display:flex;
+    justify-content: space-around;
+}
+.header-in .header-left{
+    width: 65%;
+}
+.header-in .header-left .img-logo{
+    width: 500px;
+    margin: 150px 80px;
+}
+.header-in .header-right{
+    width:35%;
+}
+.header-in .header-right-top{
+    display:flex;
+    margin-left: 15px;
+}
+.header-right-top-as{
+    display:flex;
+}
+.header-right-top-as .acc-text{
+    color: white;
+}
+.header-right-top-as .item-acc {
+    list-style-type: none;
+    padding:0px;
+}
+.header-right-top-as .item-acc .account{
+    border-radius: 113px;
+    width: 30px;
+    margin-top:-5px;
+    margin-left: 5px;
+}
+.header-right-top-as .item-acc li{
+    position:relative;
+}
+.header-right-top-as .item-acc .sub-acc{
+    display:none;
+    padding: 0px;
+    position:absolute;
+    list-style: none;
+}
+.header-right-top-as .item-acc .sub-acc li{
+    padding:3px 5px;
+}
+.header-right-top-as .item-acc .sub-acc li a{
+    color:white;
+    padding:3px 5px;
+}
+.header-right-top-as .item-acc .sub-acc li a:hover {
+    background-color:antiquewhite;
+    color:black;
+}
+.header-right-top-as .item-acc li:hover > .sub-acc{
+    display:block;
+}
+.header-right-top-cart .cart-text a{
+    color: white;
+    padding:5px 10px;
+}
+.header-right-top-cart .cart-text a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.header-right .cc{
+    width: 1px;
+    background-color:white;
+    height: 27px;
+    margin: 15px 50px 0px 55px;
+}
+.header-right-bottom {
+    display: flex;
+}
+.header-right-bottom .menu{
+    margin-top: 150px;
+    display:flex;
+}
+.header-right-bottom .menu li{
+    list-style: none;
+    margin-left: 15px;
+}
+.header-right-bottom .menu li a{
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.header-right-bottom .menu li a:hover{
+    background-color:antiquewhite;
+    color: black;
+}
+.header-right-bottom .frm-seach{
+    display:flex;
+    margin-top: 135px;
+    width: 200px;
+
+}
+.header-right-bottom .frm-seach .btn-seach {
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color:#090909;
+    padding-left: 1px;
+    padding-right:1px;
+}
+
+.header-right-bottom .frm-seach .btn-seach .icon-sh{
+    background-image: url('./images/seach-icon.png');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    border-radius:10px;
+    margin:auto;
+}
+.header-right-bottom .frm-seach #seach {
+    border:none;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid;
+}
