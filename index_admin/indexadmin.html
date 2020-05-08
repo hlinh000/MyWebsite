@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMIN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./indexadmin.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-images">
+			<img src="./Images/logo.png">
+		</div>
+		<div class="header-user">
+			<div class="user-login">
+				<p>Tên đăng nhập</p>
+			</div>
+			<div class="user-logout">
+				<p>Đăng xuất</p>
+			</div>
+		</div>
+	</div>
+	<div class="conten">
+		<div class="conten-left">
+			<ul>
+				<li><a href="#">Quản lý sản phẩm</a></li>
+				<li><a href="#">Thêm sản phẩm</a></li>
+			</ul>
+		</div>
+		<div class="conten-right">
+			<div class="product-top">
+				<div class="prd-title">
+					<h1>Quản lý sản phẩm</h1>
+				</div>
+				<div class="prd-icon">
+					<button>them</button>
+					<button>sua</button>
+					<button>xoa</button>
+				</div>
+			</div>
+			<div class="product-bottom">
+				<div class="prd-bt-left">
+					<div class="panel-heading">
+						<h4>
+							<i class="fa fa-list">Quản lý sản phẩm</i>
+						</h4>
+					</div>
+					<div class="panel-body">
+						<table border="2" style="text-align: center">
+							<thead>
+								<tr>
+					                <td class="text-center"><input type="checkbox" name=""></td>
+					                <td class="text-center">ẢNH</td>
+					                <td class="text-left">TÊN SẢN PHẨM</td>
+					                <td class="text-left">GIÁ</td>
+					                <td class="text-right">SỐ LƯỢNG</td>
+					                <td class="text-right">DANH MỤC</td>
+					                <td class="text-center">SỬA</td>
+					                <td class="text-center">XÓA</td>
+				            	</tr>
+							</thead>
+			            	<tbody>
+			            		<tr>
+				            		<td class="text-center"><input type="checkbox" name=""></td>
+				            		<td class="text-center"><img src="./Images/tip-trick3"></td>
+				            		<td class="text-left">Giày Nike</td>
+				            		<td class="text-left">1.250.000</td>
+				            		<td class="text-right">10</td>
+				            		<td class="text-right">Giày Nike</td>
+				            		<td class="text-center"><a href="#"><i class="fa fa-refresh fa-spin" style="font-size:36px;color:red; text-align: center"></i></a></td>
+				            		<td class="text-center"><a href="#"><i class="fa fa-trash-o" style="font-size:36px;color:red"></i></a></td>
+				            	</tr>
+			            	</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="prd-bt-right">
+					<div class="panel-heading">
+						<h4>
+							<i class="fa fa-list">Lọc</i>
+						</h4>
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<label class="control-label" for="input-name">Tên sản phẩm</label>
+							<input type="text" name="filter_name" value="" placeholder="Tên sản phẩm" id="input-name" class="form-control" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="input-name">Giá</label>
+							<input type="text" name="filter_name" value="" placeholder="Giá" id="input-name" class="form-control" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="input-name">Số lượng</label>
+							<input type="text" name="filter_name" value="" placeholder="Số lượng" id="input-name" class="form-control" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="input-name">Danh mục</label>
+							<input type="text" name="filter_name" value="" placeholder="Product Name" id="input-name" class="form-control" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<button type="button" id="button-filter" class="btn btn-default"><i class="fa fa-filter"></i> Lọc</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
