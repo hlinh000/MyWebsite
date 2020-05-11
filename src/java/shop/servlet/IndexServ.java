@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Severlet;
+package shop.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,7 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ADMIN
  */
-public class Index extends HttpServlet {
+@WebServlet(name = "IndexServ", urlPatterns = {""})
+public class IndexServ extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,10 +37,10 @@ public class Index extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Index</title>");            
+            out.println("<title>Servlet IndexServ</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Index at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet IndexServ at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -56,7 +58,8 @@ public class Index extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("index.jsp").forward(request, response);
+        request.setAttribute("qq", "Cai QQ");
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
     /**

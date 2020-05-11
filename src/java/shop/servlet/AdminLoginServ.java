@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Severlet;
+package shop.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ADMIN
  */
-public class Account extends HttpServlet {
+public class AdminLoginServ extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,10 +35,10 @@ public class Account extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Account</title>");            
+            out.println("<title>Servlet AdminLoginServ</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Account at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet AdminLoginServ at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -56,8 +56,7 @@ public class Account extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.setAttribute("block", "block");
-        request.getRequestDispatcher("/header.jsp").forward(request, response);
+        processRequest(request, response);
     }
 
     /**

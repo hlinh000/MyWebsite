@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index.jsp
-    Created on : Jan 13, 2020, 7:14:14 PM
+    Document   : index
+    Created on : May 11, 2020, 9:13:22 PM
     Author     : ADMIN
 --%>
 
@@ -12,18 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <div>
-            <%@include file="./header.jsp" %>
-        </div>
-        <div class="clear-fix" style="height: 30px"></div>
-        <div >
-            <%@include file="./content.jsp" %>
-        </div>
-        <div class="clear-fix" style="height: 30px"></div>
-        <div style="border-bottom: 1px solid #ccc;"></div>
-        <div class="clear-fix" style="height: 30px"></div>
-        <div>
-            <%@include file="./footer.jsp" %>
-        </div>
+        <h1>Hello World!</h1>
+        <h1><%=request.getAttribute("qq") %></h1>
     </body>
 </html>
