@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.prt-ad {
+    width: 100%;
+    overflow: hidden;
+}
+
+.prt-ad .content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.prt-ad .content .header {
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    display: flex;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.prt-ad .content .header h3 {
+    font-size: 40px;
+    margin: 0px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.prt-ad .content .header .buton {
+    width: 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.prt-ad .content .header .buton .icon {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+    height: 20px;
+}
+.prt-ad .content .header .buton .icon:hover{
+    opacity: 0.9;
+}
+
+.prt-ad .content .header .buton .icon-new {
+    background-color: #3593e1;
+}
+
+.prt-ad .content .header .buton .icon-update {
+}
+
+.prt-ad .content .header .buton .icon-delete {
+    background-color: red;
+}
+
+.prt-ad .content .header .buton .btn {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 20px;
+}
+
+.prt-ad .content .header .buton .btn-new {
+    background-image: url('./images/new.png');
+}
+
+.prt-ad .content .header .buton .btn-update {
+    background-image: url('./images/update.png');
+}
+
+.prt-ad .content .header .buton .btn-delete {
+    background-image: url('./images//delete.png');
+}
+
+.prt-ad .content .bottom {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.prt-ad .content .bottom .left {
+    width: 75%;
+    overflow: hidden;
+}
+
+.prt-ad .content .bottom .left .prt-list {
+    overflow: hidden;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.prt-ad .content .bottom .left .prt-list .header-li {
+    border-bottom: 1px solid #ccc;
+    height: 38px;
+}
+
+.prt-ad .content .bottom .left .prt-list .header-li h4 {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.prt-ad .content .bottom .left .prt-list .header-li .icon-prt-list {
+    background-image: url('./images/list.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper {
+    overflow: hidden;
+    margin: auto;
+    padding-top: 10px;
+    background-color: white;
+    padding: 15px 15px;
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .txb {
+}
+.prt-ad .content .bottom .left .prt-list .wrapper table tr:hover{
+        background-color: transparent;
+    background: #e1dfdf99;
+}
+.prt-ad .content .bottom .left .prt-list .wrapper table .img {
+    width: 10px;
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .code {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .prt-name {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .price-old {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .price-curent {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .quality {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table .status {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table a {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table a .icon {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table a .icon-update {
+}
+
+.prt-ad .content .bottom .left .prt-list .wrapper table a .icon-delete {
+}
+
+.prt-ad .content .bottom .right {
+    width: 20%;
+    overflow: hidden;
+}
+
+.prt-ad .content .bottom .right .filter {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.prt-ad .content .bottom .right .filter .header-fl {
+    height: 38px;
+    border-bottom: 1px solid #ccc;
+}
+
+.prt-ad .content .bottom .right .filter .header-fl h4 {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.prt-ad .content .bottom .right .filter .header-fl h4 .fl {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.prt-ad .content .bottom .right .filter .header-fl h4 .icon-filter-hd {
+    background-image: url('./images/fitler.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.prt-ad .content .bottom .right .filter .below {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.prt-ad .content .bottom .right .filter .below form {
+    width: 90%;
+    margin: auto;
+}
+
+.prt-ad .content .bottom .right .filter .below form .item {
+    border-bottom: 1px solid #dfdede;
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-code {
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-prt-name {
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-price {
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-qua {
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-status {
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-submit {
+    height: 50px;
+}
+
+.prt-ad .content .bottom .right .filter .below form h3 {
+    margin-bottom: 8px;
+}
+
+.prt-ad .content .bottom .right .filter .below form .input {
+    height: 34px;
+    width: 94%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 3px 0px 0px 14px;
+    overflow: hidden;
+}
+
+.prt-ad .content .bottom .right .filter .below form .clear-fix {
+    height: 10px;
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-submit button {
+    float: right;
+    margin-top: 13px;
+    width: 75px;
+    height: 30px;
+}
+
+.prt-ad .content .bottom .right .filter .below form .fl-submit button .icon-fl {
+    background-image: url('./images/fitler.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
