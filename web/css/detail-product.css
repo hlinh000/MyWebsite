@@ -1,0 +1,326 @@
+a {
+    text-decoration: none;
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+.clear-fix{
+    margin-top: 30px;
+}
+.content {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.main-content .frame-left {
+    width: 30%;
+    overflow: hidden;
+}
+
+.main-content .frame-left .img-frt {
+}
+
+.main-content .frame-left .img-frt a {
+    display: inline-block;
+}
+
+.main-content .frame-left .img-frt a img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content .frame-left .thumbs {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content .frame-left .thumbs .slide-img-frt {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content .frame-left .thumbs .slide-img-frt .item {
+    background-color: aquamarine;
+    width: 20%;
+    border: 1px solid;
+}
+
+.main-content .frame-center {
+    width: 30%;
+    overflow: hidden;
+}
+
+.main-content .frame-center .name-table {
+    width: 100%;
+}
+
+.main-content .frame-center .name-table .froduct-name h1 {
+    font-size: 23px;
+    line-height: 33px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.main-content .frame-center .name-table .code-manu {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.main-content .frame-center .name-table .code-manu .rate-head {
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content .frame-center .name-table .code-manu .rate-head .start-on {
+    background: yellow;
+    width: 10px;
+    overflow: hidden;
+}
+
+.main-content .frame-center .name-table .code-manu .trademark {
+    width: 70%;
+    overflow: hidden;
+}
+
+.main-content .frame-center .name-table .code-manu .trademark a:hover {
+    color: red;
+}
+
+.main-content .frame-center .name-table .price {
+}
+
+.main-content .frame-center .name-table .price .price-old {
+    text-decoration: line-through;
+    font-size: 17px;
+}
+
+.main-content .frame-center .name-table .price .price-current {
+    font-size: 20px;
+    color: red;
+}
+
+.main-content .frame-center .name-table .insurrance {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border: 1px solid #d5d0d0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.main-content .frame-center .name-table .insurrance img {
+    width: 30%;
+}
+
+.main-content .frame-center .name-table .insurrance p {
+    width: 65%;
+}
+
+.main-content .frame-center .name-table .buy {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content .frame-center .name-table .buy .btn-buy {
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main-content .frame-center .name-table .buy .btn-buy:hover {
+    background-color: black;
+}
+
+.main-content .frame-center .name-table .buy .now {
+    background-color: #ee3636;
+}
+
+.main-content .frame-center .name-table .buy .installment {
+    background-color: #2767c7;
+}
+
+.main-content .frame-right {
+    width: 30%;
+    overflow: hidden;
+}
+
+.main-content .frame-right .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ed1c24;
+}
+
+.main-content .frame-right .header img {
+    width: 20%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.main-content .frame-right .header span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 70%;
+    letter-spacing: 1.3px;
+    margin-top: 10px;
+    color: white;
+}
+
+.main-content .frame-right .table-war {
+    display: inline-table;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.main-content .frame-right .table-war .item {
+    border-bottom: 1px solid;
+}
+
+.main-content .frame-right .table-war .item > p {
+    padding: 10px
+}
+
+.main-content .frame-right .table-war .info {
+    display: flex;
+    padding: 10px;
+}
+
+.main-content .frame-right .table-war .hotline {
+    width: 30%;
+    overflow: hidden;
+}
+
+.main-content .frame-right .table-war .mail {
+    width: 70%;
+    overflow: hidden;
+}
+
+.main-content .frame-right .table-war .info .icon-call {
+    background: url('../images/call.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content .frame-right .table-war .info .icon-mail {
+    background: url('../images/mail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-detail {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-detail .bottom-left {
+    width: 65%;
+    overflow: hidden;
+}
+
+.bottom-detail .bottom-left .frt-tab {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-detail .bottom-left .frt-tab .btn-describe {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.bottom-detail .bottom-left .frt-tab .btn-describe .btn {
+    font-size: 20px;
+    width: 33.3%;
+    padding: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+}
+
+.bottom-detail .bottom-left .frt-tab .btn-describe .btn-de {
+    background-color: gainsboro;
+    border-top: 2px solid red;
+}
+
+.bottom-detail .bottom-left .frt-tab-content {
+    background-color: gainsboro;
+    padding-top: 28px;
+}
+
+.bottom-detail .bottom-left .frt-tab-content .box-cnt {
+}
+
+.bottom-detail .bottom-left .frt-tab-content .box-cnt h3 {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.bottom-detail .bottom-left .frt-tab-content .box-cnt img {
+}
+
+.bottom-detail .bottom-left .frt-tab-content .box-cnt p {
+}
+
+.bottom-detail .bottom-right {
+    width: 30%;
+}
+
+.bottom-detail .bottom-right .info-table {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-detail .bottom-right .info-table .header {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: #ed1c24;
+}
+
+.bottom-detail .bottom-right .info-table .header img {
+    width: 20%;
+}
+
+.bottom-detail .bottom-right .info-table .header h3 {
+    width: 68%;
+    color: white;
+}
+
+.bottom-detail .bottom-right .info-table .bottom-info {
+    width: 100%;
+}
+
+.bottom-detail .bottom-right .info-table .bottom-info tbody tr {
+    background-color: antiquewhite;
+}
+
+.bottom-detail .bottom-right .info-table .bottom-info td {
+    height: 10px;
+    padding: 10px;
+}

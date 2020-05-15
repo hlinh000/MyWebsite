@@ -1,0 +1,240 @@
+body{
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.wapper-content-page .prt-hot{
+    position: relative;
+}
+.title-mod,.title-collect{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: none;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    height: 18px;
+}
+ .title-mod span,.title-collect span{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    background: #fff;
+    padding: 0px 18px;
+    color: #232323;
+    display: inline-table;
+}
+.title-mod::after, .title-collect::after{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    top: 15px;
+    left: 0px;
+    position: absolute;
+}
+.prt-hot .cart-item-store{
+    text-align: center;
+}
+.prt-hot .cart-item-store .btn-item{
+    padding: 10px;
+    border:none;
+    background-color:#e4e3e2;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.prt-hot .cart-item-store .btn-item:hover {
+    background-color: #e97f2b;
+    border: none;
+}
+.prt-hot .w {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.prt-hot .men{
+    display: block;
+}
+.prt-hot .w .w-store {
+    display: flex;
+    flex-wrap: wrap;
+}
+.prt-hot .w .w-store .item{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 25%;
+}
+.prt-hot .w .w-store .item .prt-inner{  
+    position: relative;
+}
+.prt-hot .w .w-store .item .prt-inner .prt-img{
+    margin-bottom: 20px;
+    position: relative;
+}
+.prt-hot .w .w-store .item .prt-inner .prt-img  .installment{   
+    position: absolute;  
+    left: 10px;  
+    bottom: 0px;  
+    background: #f28902;  
+    padding: 2px 4px; 
+    font-size: 13px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.prt-hot .w .w-store .item .prt-inner h2{
+}
+.prt-hot .w .w-store .item .prt-inner h2 .frt-name-page{
+    font-size: 18px;
+}
+.prt-hot .w .w-store .item .prt-inner h2 .frt-name-page .cart-name{
+    color: #777;
+    margin-bottom: 18px;
+    display: block;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.prt-hot .w .w-store .item .prt-inner .discount{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background: red;
+    color: #fff;
+    padding: 10px 3px 0px;
+    font-size: 14px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 77%, 0 100%);
+    height: 48px;
+    width: 38px;
+    box-sizing: border-box;
+}
+.prt-hot .w .w-store .item .prt-inner .price-arae{
+
+}
+.prt-hot .w .w-store .item .prt-inner .price-arae .price-old{
+    text-decoration: line-through;
+    font-size: 17px;
+}
+.prt-hot .w .w-store .item .prt-inner .price-arae .price-current{
+    font-size: 20px;
+    color: red;
+}
+.prt-hot .w .w-store .item .prt-inner .add-cart{
+    padding: 10px 70px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+.prt-hot .w .w-store .item .prt-inner .add-cart:hover{
+    background-color: white;
+    color: black;
+}
+.prt-hot .w .see-more {
+    text-align: center;
+}
+.prt-hot .w .see-more .see-more-item{
+    background-image: url('../images/see-more.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.prt-hot .w .see-more .see-more-item:hover{
+    color: red;
+}
+.prt-hot .woment{
+    display: none;
+}
+.pos3{
+    background-color: rgba(218,218,218,1);
+    margin: 30px 0px;
+    width: 100%;
+}
+.pos3 .content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.pos3 .content .item{
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    line-height: 23px;
+}
+
+
+
+.my-collection {
+    margin-top: 130px;
+}
+.my-collection .collection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: auto;
+}
+.my-collection .collection .collect-men{
+    width: 67%;
+    position: relative;
+    overflow: hidden;
+}
+.my-collection .collection .collect-men .img-men-cl{
+    display: inline-block;
+    width: 100%;
+}
+.my-collection .collection .name-collection{
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.my-collection .collection .name-collection .btn-men-collection{
+    background: #ca2929bf;
+    letter-spacing: 1.2px;
+    padding: 20px 50px;
+    border: 1px solid transparent;
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+.my-collection .collection .name-collection .btn-men-collection:hover{
+    background-color: transparent;
+    background: #00000099;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.my-collection .collection .collect-right{
+    width: 33%;
+    overflow: hidden;
+}
+.my-collection .collection .collect-right .item-cl{
+    position: relative;
+    width: 100%;
+}
+.my-collection .collection .collect-right .cl{
+    border: 1px solid #fff;
+    letter-spacing: 1.2px;
+    padding: 13px 16px;
+    background: #00000099;
+    min-width: 170px;
+    color: white;
+}
+.my-collection .collection .collect-right .cl:hover{
+    background-color: violet;
+}
