@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',sans-serif;
+}
+
+.notifyBg {
+}
+
+.notify {
+}
+
+.frm {
+    width: 100%;
+}
+
+.frm .frm-prt {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #aeadad;
+    border-radius: 3px;
+}
+
+.frm .frm-prt .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #c6c3c3;
+    padding: 10px 0px;
+    background-color: #ccc;
+}
+
+.frm .frm-prt .header .title {
+    width: 80%;
+}
+
+.frm .frm-prt .header .title h3 {
+    margin: 0px;
+    font-size: 33px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.frm .frm-prt .header .buttom {
+    width: 9%;
+}
+
+.frm .frm-prt .header .buttom .btn {
+    font-size: 30px;
+    border: 1px solid #e5d7d7;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.frm .frm-prt .header .buttom .btn:hover {
+    opacity: 0.8;
+}
+
+.frm .frm-prt .header .buttom .btn .fa {
+}
+
+.frm .frm-prt .header .buttom .btn .fa-save {
+    background-image: url('./images/save.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.frm .frm-prt .header .buttom .btn .fa-back {
+    background-image: url('./images/back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0px 5px;
+}
+
+.frm .frm-prt .header .buttom .btn-save {
+    background-color: #0e79da;
+}
+
+.frm .frm-prt .header .buttom .btn-back {
+    text-decoration: none;
+    background-color: #efefef;
+}
+
+.frm .frm-prt form {
+    margin-top: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.frm .frm-prt form .item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.frm .frm-prt form .item h3 {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0px;
+    width: 10%;
+    margin-top: 11px;
+}
+
+.frm .frm-prt form .item .input {
+    width: 88%;
+    height: 18px;
+    padding: 10px;
+}
+
+.frm .frm-prt form .item span {
+    margin-top: 10px;
+}
+
+.frm .frm-prt form .error {
+}
+.notify{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid #2aa634;
+    box-sizing: border-box;
+    display: none;
+}
+.notifyBg{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    background-color: gainsboro;
+    opacity: 0.4;
+    display: none;
+}

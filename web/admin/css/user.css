@@ -92,7 +92,7 @@ a {
 }
 
 .prt-ad .content .bottom .left {
-    width: 75%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -139,7 +139,7 @@ a {
 .prt-ad .content .bottom .left .prt-list .wrapper table .txb {
 }
 .prt-ad .content .bottom .left .prt-list .wrapper table tr:hover{
-    background-color: transparent;
+        background-color: transparent;
     background: #e1dfdf99;
 }
 .prt-ad .content .bottom .left .prt-list .wrapper table .img {
@@ -174,100 +174,4 @@ a {
 }
 
 .prt-ad .content .bottom .left .prt-list .wrapper table a .icon-delete {
-}
-
-.prt-ad .content .bottom .right {
-    width: 35%;
-    overflow: hidden;
-}
-
-.prt-ad .content .bottom .right .filter {
-    border: 1px solid #ccc;
-    margin-top: 10px;
-}
-
-.prt-ad .content .bottom .right .filter .header-fl {
-    height: 38px;
-    border-bottom: 1px solid #ccc;
-}
-
-.prt-ad .content .bottom .right .filter .header-fl h4 {
-    margin: 0px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.prt-ad .content .bottom .right .filter .header-fl h4 .fl {
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.prt-ad .content .bottom .right .filter .header-fl h4 .icon-filter-hd {
-    background-image: url('./images/fitler.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.prt-ad .content .bottom .right .filter .below {
-    background-color: white;
-    width: 100%;
-    overflow: hidden;
-}
-
-.prt-ad .content .bottom .right .filter .below form {
-    width: 90%;
-    margin: auto;
-}
-
-.prt-ad .content .bottom .right .filter .below form .item {
-    border-bottom: 1px solid #dfdede;
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-code {
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-prt-name {
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-price {
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-qua {
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-status {
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-submit {
-    height: 50px;
-}
-
-.prt-ad .content .bottom .right .filter .below form h3 {
-    margin-bottom: 8px;
-}
-
-.prt-ad .content .bottom .right .filter .below form .input {
-    height: 34px;
-    width: 94%;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    padding: 3px 0px 0px 14px;
-    overflow: hidden;
-}
-
-.prt-ad .content .bottom .right .filter .below form .clear-fix {
-    height: 10px;
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-submit button {
-    float: right;
-    margin-top: 13px;
-    width: 75px;
-    height: 30px;
-}
-
-.prt-ad .content .bottom .right .filter .below form .fl-submit button .icon-fl {
-    background-image: url('./images/fitler.png');
-    background-repeat: no-repeat;
-    background-size: contain;
 }

@@ -28,7 +28,7 @@
                     </div>
                     <div class="buttom">
                         <button form="frm-prt" class="btn btn-save"><i class="fa fa-save">&emsp;</i></button>
-                        <a href="" class="btn btn-back"><i class="fa fa-back">&emsp;</i></a>
+                        <a href="./index_admin.jsp" class="btn btn-back"><i class="fa fa-back">&emsp;</i></a>
                     </div>
                 </div>
                 <form action="" method="" id="frm-prt">
